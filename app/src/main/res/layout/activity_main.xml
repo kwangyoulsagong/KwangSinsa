@@ -115,23 +115,13 @@
                         android:layout_width="78dp"
                         android:layout_height="86dp"
                         android:layout_marginLeft="20dp"
+                        android:background="@color/white"
                         android:insetLeft="6dp"
                         android:insetTop="15dp"
                         android:insetRight="6dp"
                         android:insetBottom="10dp"
                         android:text="Button" />
 
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="78dp"
-                        android:layout_height="86dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_weight="1"
-                        android:insetLeft="6dp"
-                        android:insetTop="15dp"
-                        android:insetRight="6dp"
-                        android:insetBottom="10dp"
-                        android:text="Button" />
                 </LinearLayout>
 
             </LinearLayout>
