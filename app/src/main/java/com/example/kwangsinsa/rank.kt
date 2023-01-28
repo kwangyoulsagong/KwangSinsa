@@ -24,11 +24,24 @@ class rank : Fragment() {
             R.drawable.d,
             R.drawable.a,
             R.drawable.l,
+            R.drawable.coffe,
+            R.drawable.hip,
+            R.drawable.f,
+            R.drawable.rook,
+            R.drawable.n,
+            R.drawable.g
+
 
         )
         var numbertextarr= arrayOf<TextView>(
             rootview.findViewById(R.id.textView16),
             rootview.findViewById(R.id.textView17),
+            rootview.findViewById(R.id.textroot10),
+            rootview.findViewById(R.id.textroot11),
+            rootview.findViewById(R.id.textroot12),
+            rootview.findViewById(R.id.textroot9),
+            rootview.findViewById(R.id.textroot1),
+            rootview.findViewById(R.id.textroot2),
             rootview.findViewById(R.id.textView18),
             rootview.findViewById(R.id.textView19),
             rootview.findViewById(R.id.textView20),
@@ -40,12 +53,19 @@ class rank : Fragment() {
         var imageviewarr = arrayOf(
             rootview.findViewById<ImageView>(R.id.imageView2),
             rootview.findViewById<ImageView>(R.id.imageView3),
+            rootview.findViewById<ImageView>(R.id.imageroot4),
+            rootview.findViewById<ImageView>(R.id.imageroot5),
+            rootview.findViewById<ImageView>(R.id.imageroot6),
+            rootview.findViewById<ImageView>(R.id.imageroot1),
+            rootview.findViewById<ImageView>(R.id.imageroot2),
+            rootview.findViewById<ImageView>(R.id.imageroot3),
             rootview.findViewById<ImageView>(R.id.imageView4),
             rootview.findViewById<ImageView>(R.id.imageView7),
             rootview.findViewById<ImageView>(R.id.imageView8),
             rootview.findViewById<ImageView>(R.id.imageView12),
             rootview.findViewById<ImageView>(R.id.imageView13),
             rootview.findViewById<ImageView>(R.id.imageView14),
+
         )
         for(i in imageviewarr.indices){
             imageviewarr[i].setImageResource(imagearr[i])

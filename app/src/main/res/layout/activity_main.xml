@@ -101,28 +101,297 @@
                 <androidx.viewpager.widget.ViewPager
                     android:id="@+id/container"
                     android:layout_width="match_parent"
-                    android:layout_height="372dp">
+                    android:layout_height="372dp"
+                    android:layout_marginTop="20dp">
 
                 </androidx.viewpager.widget.ViewPager>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:gravity="center|center_horizontal"
+                        android:text="BOUTIQUE"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="BEAUTY"
+                        android:textColor="#000000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="Player"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:gravity="center|center_horizontal"
+                        android:text="O/0"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:gravity="center|center_horizontal"
+                        android:text="NEW"
+                        android:textColor="#6BBEC8"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="28dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="럭셔리"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="뷰티"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="스포츠"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="아울렛"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="신상"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
-                    <Button
-                        android:id="@+id/button"
-                        android:layout_width="78dp"
-                        android:layout_height="86dp"
-                        android:layout_marginLeft="20dp"
-                        android:background="@color/white"
-                        android:insetLeft="6dp"
-                        android:insetTop="15dp"
-                        android:insetRight="6dp"
-                        android:insetBottom="10dp"
-                        android:text="Button" />
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:fontFamily="sans-serif-thin"
+                        android:gravity="center|center_horizontal"
+                        android:text="earth"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="sale"
+                        android:textColor="#ED3939"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:fontFamily="sans-serif-thin"
+                        android:gravity="center|center_horizontal"
+                        android:text="date"
+                        android:textColor="#DD8787"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:gravity="center|center_horizontal"
+                        android:text="EDU"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="65dp"
+                        android:layout_height="57.5dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btnbg"
+                        android:gravity="center|center_horizontal"
+                        android:text="RE sell"
+                        android:textColor="#71C575"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="어스"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="19dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="세일"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center|center_horizontal"
+                        android:text="소개팅"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="교육"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center|center_horizontal"
+                        android:text="리셀"
+                        android:textColor="#000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
             </LinearLayout>
         </ScrollView>

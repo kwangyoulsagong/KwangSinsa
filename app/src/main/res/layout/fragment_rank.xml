@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="818dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="90dp"
         android:orientation="vertical">
 
         <ScrollView
@@ -270,7 +270,289 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="1133dp">
+                    android:layout_height="570dp">
+
+                    <ImageView
+                        android:id="@+id/imageroot1"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="316dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageroot2"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="316dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot1"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="316dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageroot3"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="316dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot2"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="316dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot3"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="284dp"
+                        android:text="곽쥐"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot4" />
+
+                    <TextView
+                        android:id="@+id/textroot4"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="48dp"
+                        android:layout_marginTop="284dp"
+                        android:text="곽쥐"
+                        app:layout_constraintStart_toEndOf="@+id/textroot13"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot5" />
+
+                    <TextView
+                        android:id="@+id/textroot5"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="48dp"
+                        android:layout_marginTop="284dp"
+                        android:text="일모리퍼시픽"
+                        app:layout_constraintStart_toEndOf="@+id/textroot14"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot6" />
+
+                    <TextView
+                        android:id="@+id/textroot6"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="288dp"
+                        android:text="240,999원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textroot13" />
+
+                    <TextView
+                        android:id="@+id/textroot7"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="284dp"
+                        android:text="30,000원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@id/textroot16"
+                        app:layout_constraintTop_toBottomOf="@id/textroot14" />
+
+                    <TextView
+                        android:id="@+id/textroot9"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="316dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageroot4"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="34dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot10"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="34dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageroot5"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="34dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot11"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="34dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageroot6"
+                        android:layout_width="125dp"
+                        android:layout_height="179dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="34dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/o"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot12"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="34dp"
+                        android:background="#A5A4A4"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        app:layout_constraintStart_toEndOf="@+id/imageroot5"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textroot13"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="2dp"
+                        android:text="케빈강"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot5" />
+
+                    <TextView
+                        android:id="@+id/textroot14"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginTop="2dp"
+                        android:text="너드"
+                        app:layout_constraintStart_toEndOf="@+id/textroot13"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot5" />
+
+                    <TextView
+                        android:id="@+id/textroot15"
+                        android:layout_width="79dp"
+                        android:layout_height="23dp"
+                        android:layout_marginStart="49dp"
+                        android:layout_marginTop="2dp"
+                        android:text="원펀치"
+                        app:layout_constraintStart_toEndOf="@+id/textroot14"
+                        app:layout_constraintTop_toBottomOf="@+id/imageroot6" />
+
+                    <TextView
+                        android:id="@+id/textroot16"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="5dp"
+                        android:text="130,800원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textroot13" />
+
+                    <TextView
+                        android:id="@+id/textroot17"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="4dp"
+                        android:text="60,000원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/textroot16"
+                        app:layout_constraintTop_toBottomOf="@+id/textroot14" />
+
+                    <TextView
+                        android:id="@+id/textroot18"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="5dp"
+                        android:text="159,000원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/textroot17"
+                        app:layout_constraintTop_toBottomOf="@+id/textroot15" />
+
+                    <TextView
+                        android:id="@+id/textroot19"
+                        android:layout_width="88dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="284dp"
+                        android:text="29,000원"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintStart_toEndOf="@+id/textroot17"
+                        app:layout_constraintTop_toBottomOf="@+id/textroot15" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/imageView12"
@@ -337,7 +619,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="284dp"
-                        android:text="곽쥐"
+                        android:text="우빈더레인"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -347,7 +629,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="48dp"
                         android:layout_marginTop="284dp"
-                        android:text="곽쥐"
+                        android:text="헤어남저"
                         app:layout_constraintStart_toEndOf="@+id/textView22"
                         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -357,7 +639,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="48dp"
                         android:layout_marginTop="284dp"
-                        android:text="일모리퍼시픽"
+                        android:text="호남스"
                         app:layout_constraintStart_toEndOf="@+id/textView26"
                         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
@@ -367,7 +649,7 @@
                         android:layout_height="36dp"
                         android:layout_marginStart="12dp"
                         android:layout_marginTop="288dp"
-                        android:text="240,999원"
+                        android:text="380,423원"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -488,7 +770,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="2dp"
-                        android:text="케빈강"
+                        android:text="톰블랙"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
@@ -498,7 +780,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="49dp"
                         android:layout_marginTop="2dp"
-                        android:text="너드"
+                        android:text="쇼미더꽈추"
                         app:layout_constraintStart_toEndOf="@+id/textView22"
                         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -508,7 +790,7 @@
                         android:layout_height="23dp"
                         android:layout_marginStart="49dp"
                         android:layout_marginTop="2dp"
-                        android:text="원펀치"
+                        android:text="페브리"
                         app:layout_constraintStart_toEndOf="@+id/textView26"
                         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
@@ -518,7 +800,7 @@
                         android:layout_height="36dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="5dp"
-                        android:text="130,800원"
+                        android:text="770,000원"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         app:layout_constraintStart_toStartOf="parent"
@@ -530,7 +812,7 @@
                         android:layout_height="36dp"
                         android:layout_marginStart="40dp"
                         android:layout_marginTop="4dp"
-                        android:text="60,000원"
+                        android:text="99,000원"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         app:layout_constraintStart_toEndOf="@+id/textView25"
@@ -542,7 +824,7 @@
                         android:layout_height="36dp"
                         android:layout_marginStart="40dp"
                         android:layout_marginTop="5dp"
-                        android:text="159,000원"
+                        android:text="13,000원"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         app:layout_constraintStart_toEndOf="@+id/textView27"
@@ -554,7 +836,7 @@
                         android:layout_height="36dp"
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="284dp"
-                        android:text="29,000원"
+                        android:text="70,000원"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         app:layout_constraintStart_toEndOf="@+id/textView27"

@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun setslide(){
-        if(current==5){
+        if(current==8){
             current=0
         }
         else{
