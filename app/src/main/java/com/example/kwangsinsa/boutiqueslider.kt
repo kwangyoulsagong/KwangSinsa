@@ -8,32 +8,19 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 
-class slideradapter(private val c: Context): PagerAdapter() {
+class boutiqueslider(private val c: Context): PagerAdapter(){
     private lateinit var li: LayoutInflater// 인플레이터
 
     val image= arrayOf(
-        R.drawable.newjins,
-        R.drawable.s2,
-        R.drawable.z,
-        R.drawable.b,
-        R.drawable.s3,
-        R.drawable.cobermpt,
-        R.drawable.m1,
-        R.drawable.mikey,
-        R.drawable.city,
-        R.drawable.e,
-        R.drawable.friends,
-        R.drawable.a4,
-        R.drawable.f,
-        R.drawable.nb,
-        R.drawable.p,
-        R.drawable.polo,
-        R.drawable.shoes,
-        R.drawable.friends2,
-        R.drawable.nerd,
-        R.drawable.winter,
+        R.drawable.b1,
+        R.drawable.b2,
+        R.drawable.b3,
+        R.drawable.b4,
+        R.drawable.b5,
+        R.drawable.b6,
 
-    )
+
+        )
     val recommendTitle= arrayOf(
         "NewJeans Love MUSINSA",
         "세터 23 S/S 컬렉션",
@@ -56,7 +43,7 @@ class slideradapter(private val c: Context): PagerAdapter() {
         "낫포너드 인기 팬츠",
         "아울렛 강추위 패딩 특가",
 
-    )
+        )
     // 페이지뷰와 생성된페이지가 일치하는지
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
         return view==`object`
@@ -70,14 +57,11 @@ class slideradapter(private val c: Context): PagerAdapter() {
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         li=c.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater// Context to inflater
         //슬라이더 xml 에서 인플레이터로 뷰 만듬
-        val sliderView=li!!.inflate(R.layout.slider,null)
+        val sliderView=li!!.inflate(R.layout.sliderboutique,null)
         val imageview=sliderView.findViewById(R.id.imageView) as ImageView
-        val title=sliderView.findViewById(R.id.Topid)as TextView
-        val page=sliderView.findViewById(R.id.page)as TextView
+
         //이미지 position 해당하는이미지 설정
         imageview.setImageResource(image[position])
-        title.setText(recommendTitle[position])
-        page.text=(position+1).toString()+" "+"/"+" "+"20"
         //
         container.addView(sliderView,0)
         return sliderView

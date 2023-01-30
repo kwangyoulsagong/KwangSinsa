@@ -1,6 +1,7 @@
 package com.example.kwangsinsa
 
 import android.os.Bundle
+import android.util.Log.d
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -17,19 +18,20 @@ class rank : Fragment() {
         var rootview=inflater.inflate(R.layout.fragment_rank, container, false)
         var imagearr= arrayOf(
             R.drawable.o,
-            R.drawable.e,
+            R.drawable.pant,
             R.drawable.r,
             R.drawable.q,
             R.drawable.u,
             R.drawable.d,
+            R.drawable.n,
+            R.drawable.g,
             R.drawable.a,
             R.drawable.l,
             R.drawable.coffe,
             R.drawable.hip,
-            R.drawable.f,
+            R.drawable.girl1,
             R.drawable.rook,
-            R.drawable.n,
-            R.drawable.g
+
 
 
         )

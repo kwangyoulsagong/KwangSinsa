@@ -1,19 +1,22 @@
 package com.example.kwangsinsa
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.Paint
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
+import java.nio.file.Files.size
 
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager
-    private var current =0
     val handler=Handler(Looper.getMainLooper()){
         setslide()
         true
@@ -50,13 +53,20 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+        var textviewbtn= arrayOf<TextView>(findViewById(R.id.textView30))
+        var classarr= arrayOf(boutique())
+        for(i in textviewbtn.indices){
+            textviewbtn[i].setOnClickListener{
+                var intent= Intent(this,classarr[i]::class.java)
+                startActivity(intent)
+            }
+        }
     }
     fun setslide(){
-        if(current==8){
-            current=0
-        }
-        else{
-            viewPager.setCurrentItem(current++,true)
+        if(viewPager.getCurrentItem()<19){
+            viewPager.setCurrentItem(viewPager.getCurrentItem() + 1);
+        }else{
+            viewPager.setCurrentItem(0);
         }
     }
     inner class NextPage:Runnable{
