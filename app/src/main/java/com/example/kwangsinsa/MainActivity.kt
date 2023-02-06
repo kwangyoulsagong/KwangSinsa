@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.size
@@ -58,6 +59,36 @@ class MainActivity : AppCompatActivity() {
         for(i in textviewbtn.indices){
             textviewbtn[i].setOnClickListener{
                 var intent= Intent(this,classarr[i]::class.java)
+                startActivity(intent)
+            }
+        }
+        var ranknum= arrayOf<TextView>(findViewById(R.id.textView53),findViewById(R.id.textView54),findViewById(R.id.textView57),
+            findViewById(R.id.textView68),findViewById(R.id.textView71),findViewById(R.id.textView74),findViewById(R.id.textView77),
+            findViewById(R.id.textView80),findViewById(R.id.textView83),findViewById(R.id.textView86))
+
+        var rankimagecont= arrayOf<ImageView>(findViewById(R.id.imageView5),findViewById(R.id.imageView6),findViewById(R.id.imageView9),
+            findViewById(R.id.imageView10),findViewById(R.id.imageView11),findViewById(R.id.imageView15),findViewById(R.id.imageView16),
+            findViewById(R.id.imageView17),findViewById(R.id.imageView18),findViewById(R.id.imageView19))
+
+        var rankimage= arrayOf(
+            R.drawable.r1,
+            R.drawable.r2,
+            R.drawable.r3,
+            R.drawable.r4,
+            R.drawable.r5,
+            R.drawable.r6,
+            R.drawable.r7,
+            R.drawable.r8,
+            R.drawable.r9,
+            R.drawable.r10)
+
+
+        for(i in ranknum.indices){
+            ranknum[i].text="${i+1}"
+            rankimagecont[i].setImageResource(rankimage[i])
+            rankimagecont[i].setOnClickListener{
+                var intent= Intent(this,msshoppingpage::class.java)
+                intent.putExtra("key",i.toString())
                 startActivity(intent)
             }
         }
