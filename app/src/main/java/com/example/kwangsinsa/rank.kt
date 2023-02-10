@@ -1,5 +1,6 @@
 package com.example.kwangsinsa
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log.d
 import androidx.fragment.app.Fragment
@@ -71,6 +72,11 @@ class rank : Fragment() {
         )
         for(i in imageviewarr.indices){
             imageviewarr[i].setImageResource(imagearr[i])
+            imageviewarr[i].setOnClickListener{
+                var intent=Intent(activity,shoppingPage::class.java)
+                intent.putExtra("key",i.toString())
+                startActivity(intent)
+            }
         }
         for(i in numbertextarr.indices){
             numbertextarr[i].setText("${i+1}")
